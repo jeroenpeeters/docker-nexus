@@ -1,7 +1,7 @@
 # sonatype/docker-nexus
 
-Docker images for Sonatype Nexus Repository Manager 2 with OpenJDK and
-Red Hat Enterprise Linux 7. Make to run on the Red Hat OpenShift Container
+Dockerfiles for Sonatype Nexus Repository Manager 2 with OpenJDK and
+Red Hat Enterprise Linux 7. Made to run on the Red Hat OpenShift Container
 Platform.
 
 # Building in OpenShift
