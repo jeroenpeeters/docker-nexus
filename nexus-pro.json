@@ -211,6 +211,14 @@
                               "securityContext": {
                                  "capabilities": {},
                                  "privileged": false
+                              },
+                              "readinessProbe": {
+                                 "httpGet": {
+                                    "path": "/",
+                                    "port": 8081
+                                 },
+                                 "initialDelaySeconds": 60,
+                                 "timeoutSeconds": 300
                               }
                            }
                         ],
